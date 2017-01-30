@@ -21,7 +21,7 @@ public class Test {
         LazyList node = LazyList.primes(members);
         System.out.println(node.head());
         System.out.println(node.tail().head());
-        System.out.println(node.tail().tail().head());
+        System.out.println(node.tail().tail().head());//存在重复计算
 
 
     }
